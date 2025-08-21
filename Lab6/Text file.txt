@@ -1,0 +1,22 @@
+powersBuggy problems
+- the library cmath was not included ==> error with function pow
+- line 10: arrow brackets going the wrong direction
+- line 14: logical error where the a is incremented so it says x to the power of a is equal to x to the power of a+1
+
+
+helloWorldBuggy problems
+- missing the statement: using namespace std;
+- line 9: missing semicolon after return 0
+
+
+freeFallBuggy problems
+- variable for time was made a constant
+- there is no input function to take in the value for time
+- the equation for the distance is doing integer division so the reuslt of the 1/2 is 0
+
+circleAreaBuggy problems
+- radius was made a fixed variable when it show be an input
+- area was not a declared varaible
+
+calculatorBuggy problems
+- varaibles num1 and num2 are just initialized as integers so all operations are done through integer operations (logical error)
